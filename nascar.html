@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NASCAR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    #pozadie{
+      position:absolute;
+      z-index:-20;
+      width:auto;
+      height:auto;
+      
+      
+    }
+    p{
+      font-size:18px;
+    }
+    .container{
+      color:white;
+      background-color:rgba(0, 0, 0, 0.7)
+    }
+    
+    .navbar {
+      background-color: #f8f9fa;
+      padding: 10px 15px;
+      position:sticky;
+      top:0;
+    }
+    
+    .navbar-brand img {
+      width: 300px;
+      height: 70px;
+    }
+    
+    .navbar-nav {
+      margin-left: auto;
+    }
+    
+    .nav-link {
+      color: #000;
+      padding: 10px 15px;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+      color: #555;
+      text-decoration: none;
+    }
+    
+    
+    
+    h2 {
+      text-align: center;
+    }
+    
+    #myModal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    #myModal .modal-content {
+      display: block;
+      margin: auto;
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+    }
+    
+    #myModal .close {
+      color: #fff;
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    #myModal .close:hover,
+    #myModal .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @media (max-width: 576px) {
+      .gallery img {
+        flex: 1 0 100%;
+        max-width: 100%;
+      }
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position:static;
+      width:100%;
+      margin-bottom:0;
+      
+    }
+  </style>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+  
+  </script>
+</head>
+<body>
+  <img src="https://i.pinimg.com/originals/01/d0/15/01d01598bd7c911588567d7a05f12564.jpg" id="pozadie">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="nascar.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/NASCAR_logo_2017.svg/2560px-NASCAR_logo_2017.svg.png" alt="NASCAR Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="nascar_kontakt_2.html">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Galéria.html">Galéria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Kyle_Larson.html">Kyle Larson</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="2nascar.html">Nascar Xfinity</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+ <div class="container">
+    <h2>Vitajte na stránke o NASCAR</h2>
+    
+    <p>NASCAR je americká automobilová závodná séria, založená v roku 1948, ktorá je jednou z najpopulárnejších motoristických športov na svete.
+
+Jej hlavnou disciplínou je séria pretekov, kde sa súťaží na okruhoch rýchlostných tratí.
+
+NASCAR je známe pre svoje dramatické a vysokorýchlostné súboje, kde jazdci súperia o víťazstvá a šampionáty v rôznych divíziách a sériách, ako je napríklad Cup Series, Xfinity Series a Truck Series.</p>
+    
+    <h3>Hlavné rysy NASCAR:</h3>
+    <ul>
+      <li>Rýchle a výkonné vozidlá</li>
+      <li>Okrúhle tratě s vysokou bankovou úrovňou</li>
+      <li>Dlhé preteky s vysokou intenzitou</li>
+      <li>Masívna fanúšikovská základňa</li>
+    </ul>
+    
+    <h3>Najlepší jazdci NASCAR:</h3>
+    <p>Kyle Larson: Kyle Larson je momentálne považovaný za jedného z najlepších jazdcov NASCAR. Svojou rýchlosťou, technikou a konzistentnosťou získal veľké množstvo víťazstiev a stal sa jedným z hlavných súperov na trati. Larson je známy svojimi schopnosťami v rôznych typoch okruhov a dominuje v súčasnej dobe.</p>
+
+
+
+<p>Chase Elliott: Chase Elliott je ďalším veľmi talentovaným jazdcom v NASCAR. V roku 2020 sa stal najmladším šampiónom v histórii NASCAR Cup Series. Je synom bývalého šampióna NASCAR Billa Elliotta a zdvojnásobil rodinné dedičstvo svojimi vlastnými úspechmi. Elliott je obľúbený medzi fanúšikmi a je známy svojou rýchlosťou a schopnosťou vyhrávať významné preteky.</p>
+
+
+
+<p>Denny Hamlin: Denny Hamlin je skúseným jazdcom a patrí medzi najlepších v súčasnom poli NASCAR. Vyhrával množstvo pretekov a bol viackrát blízko získaniu titulu šampióna. Hamlin je uznávaný pre svoje výnimočné riadenie vozidla a stratégie pretekov. Je to trvalá sila v sérii NASCAR a patrí medzi obľúbených jazdcov.</p>
+
+
+    
+    <p>Ak máte radi motoristické súťaže plné adrenalínu, určite sa vám bude páčiť aj NASCAR. </p>
+  </div>
+  </div>
+
+<footer>
+    <p>&copy; 2023 NASCAR. Všetky práva vyhradené.</p>
+</footer>
+ <script>
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarNav = document.querySelector('.navbar-nav');
+
+    navbarToggler.addEventListener('click', function () {
+      navbarToggler.classList.toggle('collapsed');
+      navbarNav.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
